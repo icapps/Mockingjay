@@ -9,6 +9,7 @@ Pod::Spec.new do |spec|
   spec.source = { :git => 'https://github.com/kylef/Mockingjay.git', :tag => "#{spec.version}" }
   spec.ios.deployment_target = '8.0'
   spec.osx.deployment_target = '10.10'
+  spec.tvos.deployment_target = '8.0'
   spec.requires_arc = true
   spec.swift_versions = ['4.2', '5.0']
 
